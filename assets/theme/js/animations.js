@@ -1,14 +1,3 @@
-gsap.to(".parallax-bg", {
-    y: "50%", 
-    ease: "none",
-    scrollTrigger: {
-        trigger: ".parallax-container",
-        start: "top bottom",
-        end: "bottom top",
-        scrub: true
-    }
-});
-
 gsap.utils.toArray(".fade-section").forEach(section => {
     gsap.from(section, {
         opacity: 0,
