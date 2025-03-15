@@ -360,7 +360,7 @@ body {
 .btn-teal.focus,
 .btn-teal.active {
   color: inherit;
-  background-color: var(--pink-color) !important;
+  background-color: var(--blue-color) !important;
   box-shadow: none;
 }
 .btn-teal.disabled,
